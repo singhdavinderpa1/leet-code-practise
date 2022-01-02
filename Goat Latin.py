@@ -4,7 +4,7 @@ class Solution:
         sentence = [i for i in sentence.split()]
         print(sentence)
         for i in range(len(sentence)):
-            print(sentence[i])
+            #print(sentence[i])
             if sentence[i][0] in vowel:
                 sentence[i] = sentence[i]+"ma" + (i+1)*"a"
             else:
@@ -16,7 +16,6 @@ class Solution:
 
 
 obj = Solution()
-
 
 str = "Each word consists of lowercase and uppercase letters only"
 
